@@ -1,0 +1,6 @@
+com.paemployee.employeedropwizard
+com.paemployee.employeedropwizard.core
+com.paemployee.employeedropwizard.db.dao
+com.paemployee.employeedropwizard.db.mapper
+com.paemployee.employeedropwizard.health
+com.paemployee.employeedropwizard.resources
