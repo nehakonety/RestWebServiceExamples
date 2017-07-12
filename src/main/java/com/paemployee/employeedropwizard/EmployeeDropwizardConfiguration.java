@@ -31,9 +31,7 @@ public class EmployeeDropwizardConfiguration extends Configuration {
 	@JsonProperty("password")
 	private String password = new String();
 	
-	@JsonProperty("validationQuery")
-	private String validationQuery = new String();
-	
+		
 	
 	public DataSourceFactory getDataSourceFactory() {
         return database;
@@ -70,15 +68,6 @@ public class EmployeeDropwizardConfiguration extends Configuration {
 	}
 
 
-	public String getValidationQuery() {
-		return validationQuery;
-	}
-
-
-	public void setValidationQuery(String validationQuery) {
-		this.validationQuery = validationQuery;
-	}
-	
 	
 	
 }
